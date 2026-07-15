@@ -5,7 +5,7 @@ MSc AI Thesis - Fatema Hasan, 202508958, Bahrain Polytechnic
 AI-Assisted Analysis of GDPR Cyber-Incident Records Using NLP,
 Explainable AutoML and Retrieval-Augmented Generation
 
-MSc in Artificial Intelligence — Thesis Project
+MSc in Artificial Intelligence - Thesis Project
 Fatema Husain Hasan (202508958), Bahrain Polytechnic
 Supervisor: Dr. David Gulua
 June – August 2026
@@ -29,7 +29,7 @@ Summary text, Type of Violation, and source URLs.
   3 records with encoding artefacts (ETids 2622, 2643, 2737).
 
 ### ICO/ (Cyber Incidents & Cyber Investigation)
-UK Information Commissioner's Office cyber data sets — 39 quarterly CSV
+UK Information Commissioner's Office cyber data sets - 39 quarterly CSV
 files (19 cyber incidents, 20 cyber investigations), 2021 to 2025/26,
 ~1,736 records total. Every record is a pre-confirmed cyber case.
 - Downloaded: 15 July 2026 from
