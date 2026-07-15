@@ -38,10 +38,10 @@ files (19 cyber incidents, 20 cyber investigations), 2021 to 2025/26,
   (harmonised in the data pipeline).
 
 ## Repository structure (will grow as the project progresses)
-- data/ — source datasets (snapshots, never modified)
-- notebooks/ — analysis and pipeline notebooks
-- src/ — pipeline code
-- outputs/ — labelled dataset, figures, results
+- data/ -- source datasets (snapshots, never modified)
+- notebooks/ -- analysis and pipeline notebooks
+- src/ -- pipeline code
+- outputs/ -- labelled dataset, figures, results
 
 ## Licence and use
 Source data remain the property of their publishers (CMS Law / ICO) and
