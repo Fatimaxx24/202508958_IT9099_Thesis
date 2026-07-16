@@ -47,3 +47,11 @@ files (19 cyber incidents, 20 cyber investigations), 2021 to 2025/26,
 Source data remain the property of their publishers (CMS Law / ICO) and
 are included here as research snapshots. The labelled dataset produced
 by this project will be released under CC BY 4.0.
+
+## Baseline v0 (16 Jul 2026)
+- baseline_v0.ipynb — keyword screening of the full corpus (482/3,202
+  records flagged, 15.1%), manual labelling of an 80-record stratified
+  sample, and comparison of six classifiers on structured features.
+- Best model: Decision Tree, macro-F1 = 0.816 (5-fold CV, 74 labels).
+  Indicative only given sample size.
+- labelling_sample_80_REVIEWED.csv — manually reviewed starter labels.
