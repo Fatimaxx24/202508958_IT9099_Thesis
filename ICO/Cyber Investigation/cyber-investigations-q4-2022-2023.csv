@@ -1,0 +1,42 @@
+ICE_Case Reference,ICE_Sector,ICE_SubSector,ICE_FunctionType,ICE_Decision,ICE_Legislation,ICE_Received Datetime,ICE_Completed DateTime,CRIMSON_CaseReference,CRIMSON_StartDate,CRIMSON_ClosedDate,CRIMSON_InvestigationOutcome,Final Value,CRIMSON_DataController
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0318/2022,11/11/2022,05/01/2023,No further action,0,Telefonica UK Limited
+IC-119129-J3B9,Retail and manufacture,Supplier of goods,Personal Data Breach,Investigation Pursued,GDPR,17:00.0,26/07/2021,INV/0957/2021,16/12/2021,11/01/2023,MPN not issued,0,Guntrader.UK Ltd
+IC-89673-L0M9,Retail and manufacture,Supplier of services,Personal Data Breach,Investigation Pursued,GDPR,50:00.0,26/02/2021,INV/0299/2021,21/02/2021,16/01/2023,No further action,0,Christian Flatshare
+IC-65270-Z4Q9,Transport and leisure,Aviation,Personal Data Breach,Investigation Pursued,GDPR,44:00.0,29/10/2020,INV/1338/2020,16/10/2020,17/01/2023,No further action,0,easyJet Airline Companies Limited
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0279/2020,30/11/2019,17/01/2023,No further action,0,Sweaty Betty Limited
+IC-88186-Q7B7,Retail and manufacture,Supplier of goods,Personal Data Breach,Investigation Pursued,GDPR,52:00.0,22/02/2021,INV/0264/2021,11/02/2021,27/01/2023,No action for DC,0,Empee Silk Fabrics
+IC-85317-T7H0,Retail and manufacture,Supplier of goods,Personal Data Breach,Investigation Pursued,GDPR,06:00.0,03/02/2021,INV/0188/2021,29/01/2021,27/01/2023,No action for DC,0,Out & Out Original Limited
+IC-60820-Z6R0,Transport and leisure,Holiday providers and services,Personal Data Breach,Investigation Pursued,GDPR,26:00.0,20/10/2020,INV/1269/2020,30/09/2020,27/01/2023,No further action,0,Travelopia Holdings Limited
+IC-81847-T0M2,Retail and manufacture,Supplier of services,Personal Data Breach,Investigation Pursued,GDPR,40:00.0,20/01/2021,INV/0088/2021,12/01/2021,30/01/2023,No action for DC,0,GeniusU Pte Limited
+IC-78620-G2B4,Education and childcare,Further education,Personal Data Breach,Investigation Pursued,GDPR,54:00.0,24/12/2020,INV/1752/2020,16/12/2020,30/01/2023,No action for DC,0,London South Bank University
+IC-128716-P6H1,Education and childcare,Training Company,Personal Data Breach,Investigation Pursued,GDPR,21:00.0,28/09/2021,INV/0379/2022,25/11/2022,30/01/2023,No further action,0,QA Limited
+IC-191954-K0Y8,"Finance, insurance and credit",Banks and Building Societies,Personal Data Breach,Investigation Pursued,GDPR,36:00.0,21/09/2022,INV/0320/2022,11/11/2022,03/02/2023,No action for DC,0,Revolut
+IC-177365-P8X7,Transport and leisure,Haulage,Personal Data Breach,Investigation Pursued,GDPR,44:00.0,24/06/2022,INV/0319/2022,11/11/2022,03/02/2023,No action for DC,0,Yodel Delivery Network Limited
+IC-127675-T1L4,"Finance, insurance and credit",Financial services and advice,Personal Data Breach,Investigation Pursued,GDPR,11:00.0,16/09/2021,INV/0293/2022,24/10/2022,07/02/2023,No further action,0,Fern Software
+IC-92251-B2Q1,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,24:00.0,12/03/2021,INV/0381/2021,05/03/2021,10/02/2023,No further action,0,Nova Education Trust
+IC-124290-R4L0,Legal,Barristers,Personal Data Breach,Investigation Pursued,GDPR,31:00.0,24/08/2021,INV/0090/2022,14/03/2022,13/02/2023,No further action,0,5 St. Andrew's Hill Chambers
+IC-38495-N8Y6,Charitable and voluntary,National charities,Personal Data Breach,Investigation Pursued,GDPR,51:00.0,14/05/2020,INV/0158/2020,20/04/2020,02/03/2023,Reprimand,0,Chartered Institute for Securities & Investment
+IC-95143-W6T9,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,44:00.0,01/04/2021,INV/0494/2021,17/03/2021,22/03/2023,Advice provided,0,New Horizons Learning Centre
+IC-94164-H4M7,Education and childcare,Unassigned,Personal Data Breach,Investigation Pursued,GDPR,42:14.0,24/03/2021,INV/0445/2021,17/03/2021,23/03/2023,Advice provided,0,Blackhorse Primary School
+IC-94147-V2Q9,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,06:47.0,24/03/2021,INV/0444/2021,17/03/2021,23/03/2023,Advice provided,0,Bromley Heath Infant School
+IC-94166-G8Y5,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,00:52.0,01/04/2021,INV/0490/2021,17/03/2021,23/03/2023,Advice provided,0,Bromley Heath Junior School
+IC-94233-G3B1,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,05:25.0,25/03/2021,INV/0447/2021,17/03/2021,23/03/2023,Advice provided,0,Christ Church Infant School
+IC-94496-N6K3,Education and childcare,Maintained schools,Personal Data Breach,Investigation Pursued,GDPR,01:57.0,25/03/2021,INV/0450/2021,18/03/2021,23/03/2023,Advice provided,0,Emersons Green Primary School
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0788/2021,24/06/2021,23/03/2023,Advice provided,0,Frampton Cotterell Primary School
+IC-95075-N4V2,Education and childcare,Maintained schools,Personal Data Breach,Investigation Pursued,GDPR,16:00.0,25/03/2021,INV/0446/2021,17/03/2021,23/03/2023,Advice provided,0,Frenchay Primary School
+IC-94151-Y4P7,Education and childcare,Unassigned,Personal Data Breach,Investigation Pursued,GDPR,09:44.0,24/03/2021,INV/0443/2021,17/03/2021,23/03/2023,Advice provided,0,Hambrook Primary School
+IC-94183-Y2G3,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,36:34.0,01/04/2021,INV/0493/2021,17/03/2021,23/03/2023,Advice provided,0,Hanham Abbots Junior School
+IC-94282-W7F0,Education and childcare,Maintained schools,Personal Data Breach,Investigation Pursued,GDPR,14:42.0,25/03/2021,INV/0448/2021,17/03/2021,23/03/2023,Advice provided,0,Kings Forest Primary School
+IC-95223-D2K0,Education and childcare,Maintained schools,Personal Data Breach,Investigation Pursued,GDPR,22:00.0,25/03/2021,INV/0449/2021,18/03/2021,23/03/2023,Advice provided,0,Mangotsfield CE Primary School
+IC-107163-W1Y1,Legal,Legal professionals,Personal Data Breach,Investigation Pursued,GDPR,26:00.0,01/06/2021,INV/0093/2022,14/03/2022,23/03/2023,No further action,0,OCL Solicitors
+IC-106360-T3J6,"Finance, insurance and credit",Insurance,Personal Data Breach,Investigation Pursued,GDPR,53:00.0,21/05/2021,INV/0092/2022,14/03/2022,23/03/2023,No further action,0,One Call Group Companies Limited
+IC-94175-M4D7,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,18:39.0,01/04/2021,INV/0492/2021,17/03/2021,23/03/2023,Advice provided,0,Samuel White's Infant School
+IC-94388-Q3C0,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,01:46.0,21/05/2021,INV/0632/2021,26/05/2021,23/03/2023,Advice provided,0,St Stephen's Infant School
+IC-94128-N5V7,Education and childcare,Unassigned,Personal Data Breach,Investigation Pursued,GDPR,33:36.0,24/03/2021,INV/0442/2021,17/03/2021,23/03/2023,No further action,0,St. Michael's Primary School
+IC-94486-J5Z4,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,57:44.0,01/04/2021,INV/0497/2021,18/03/2021,23/03/2023,Advice provided,0,Staple Hill Primary School
+IC-108001-Q3N6,General business,Supplier of services,Personal Data Breach,Investigation Pursued,GDPR,23:00.0,04/06/2021,INV/0094/2022,14/03/2022,23/03/2023,No further action,0,You Medicals Ltd
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0592/2021,28/08/2020,28/03/2023,Reprimand,0,HM Revenue and Customs
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0317/2020,11/03/2019,31/03/2023,No action for DC,0, Police Federation of England and Wales
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0307/2020,10/02/2020,31/03/2023,No further action,0, Redcar and Cleveland Borough Council
+IC-94558-H2R0,Education and childcare,Academy and Free Schools,Personal Data Breach,Investigation Pursued,GDPR,26:00.0,23/03/2021,INV/0431/2021,17/03/2021,31/03/2023,No further action,0,Castle School Education Trust
+NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,INV/0278/2020,05/03/2019,31/03/2023,No further action,0,ShareThis
