@@ -16,7 +16,7 @@ interface over the enforcement corpus evaluated against a BM25 baseline.
 
 ## Data
 
-### data/gdpr_enforcement_tracker_full.csv
+### gdpr_enforcement_tracker_full.csv
 Full snapshot of the GDPR Enforcement Tracker (enforcementtracker.com,
 a service by CMS Law). 3,202 records, 12 columns including per-record
 Summary text, Type of Violation, and source URLs.
