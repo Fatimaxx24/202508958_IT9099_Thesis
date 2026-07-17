@@ -22,7 +22,7 @@ interface over the enforcement corpus evaluated against a BM25 baseline.
 Full snapshot of the GDPR Enforcement Tracker (enforcementtracker.com,
 a service by CMS Law). 3,202 records, 12 columns including per-record
 Summary text, Type of Violation, and source URLs.
-- Extracted: 15 July 2026, using Claude.
+- Extracted: 15 July 2026.
 - Encoding: UTF-8
 - Known issues: 143 records without a fine amount (treated as missing);
   22 records with unknown decision dates; 1 date typo (ETid 2322);
