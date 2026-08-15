@@ -1,9 +1,7 @@
 # CyberSentinel-EU
 MSc AI Thesis - Fatema Hasan, 202508958, Bahrain Polytechnic
-AI-Assisted Analysis of GDPR Cyber-Incident Records Using NLP,
-Explainable AutoML and Retrieval-Augmented Generation
+AI-Assisted Analysis of GDPR Cyber-Incident Records Using NLP, Explainable AutoML and Retrieval-Augmented Generation
 
-MSc in Artificial Intelligence - Thesis Project
 Fatema Husain Hasan (202508958), Bahrain Polytechnic
 Supervisor: Dr. David Gulua
 June – August 2026
