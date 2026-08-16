@@ -1,0 +1,5 @@
+# CyberSentinel-EU — baseline v0 dependencies
+# (versions as run in Google Colab, 16 Jul 2026)
+pandas==2.2.2
+numpy==2.0.2
+scikit-learn==1.6.1
