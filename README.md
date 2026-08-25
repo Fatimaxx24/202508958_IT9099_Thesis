@@ -1,24 +1,40 @@
 # CyberSentinel-EU
 MSc AI Thesis - Fatema Hasan, 202508958, Bahrain Polytechnic
-AI-Assisted Analysis of GDPR Cyber-Incident Records Using NLP, Explainable AutoML and Retrieval-Augmented Generation
+AI-Assisted Analysis of GDPR Cyber-Incident Records Using NLP, Machine Learning and Retrieval-Augmented Generation
 
 Fatema Husain Hasan (202508958), Bahrain Polytechnic
 Supervisor: Dr. David Gulua
 June – August 2026
 
 ## Project overview
-A three-stage pipeline: (1) feasibility audit and construction of a
-labelled GDPR cyber-incident dataset, (2) explainable AutoML
-classification with leakage-aware evaluation, (3) a RAG conversational
-interface over the enforcement corpus evaluated against a BM25 baseline.
+A three-stage pipeline: 
+(1) feasibility audit and construction of a labelled GDPR cyber-incident dataset 
+(2) machine-learning classification with leakage-aware evaluation 
+(3) a RAG conversational interface over the enforcement corpus evaluated against a BM25 baseline.
 
-## Data
+##Final Results (24 Aug 2026)
 
+Classification (891 labelled records):
+
+Hybrid features (structured + text embeddings): 0.808 macro-F1 (stratified 5-fold CV)
+Grouped CV by organisation: 0.784 | Temporal holdout (train ≤2022, test ≥2023): 0.727
+Wilcoxon signed-rank test (H1): p < 0.00001, effect size 0.988, across 25 paired folds (5 seeds × 5 folds)
+Leakage ablation (5 configurations, 5 seeds): mean difference 0.4 ± 0.8 points — statistically indistinguishable from zero
+
+##RAG Evaluation (15-question benchmark, 4 dimensions):
+
+RAG: 1.80/2.00 (90.0%) vs BM25: 1.68/2.00 (84.2%)
+Independent reliability check: Cohen's κ = 1.000 (5-question blind rescoring subset)
+
+See the final thesis document for full methodology, discussion, and limitations.
+
+
+##Data
 ### gdpr_enforcement_tracker_full.csv
 Full snapshot of the GDPR Enforcement Tracker (enforcementtracker.com,
 a service by CMS Law). 3,202 records, 12 columns including per-record
 Summary text, Type of Violation, and source URLs.
-- Extracted: 15 July 2026.
+- Extracted: 15 July 2026 using AI and verified by the author. 
 - Encoding: UTF-8
 - Known issues: 143 records without a fine amount (treated as missing);
   22 records with unknown decision dates; 1 date typo (ETid 2322);
@@ -30,7 +46,7 @@ files (19 cyber incidents, 20 cyber investigations), 2021 to 2025/26,
 ~1,736 records total. Every record is a pre-confirmed cyber case.
 - Downloaded: 15 July 2026 from
   https://ico.org.uk/action-weve-taken/complaints-and-concerns-data-sets/cyber-investigations/
-- Files kept with original filenames; schemas vary by quarter. Evaluated but not used in the final pipeline.
+- Files kept with original filenames; schemas vary by quarter. Evaluated but not used in the final pipeline. 
 
 ## Repository structure
 All files are in the repository root, except:
@@ -40,7 +56,7 @@ All files are in the repository root, except:
 Key files:
 - Data: gdpr_enforcement_tracker_full.csv
 - Labels: labelling_sample_80_REVIEWED.csv, labelling_batch2_120_labelled.csv, labelling_master_1000_labelled.csv
-- Notebooks: baseline_v0.ipynb, pipeline_v2_1000.ipynb, STAGE2_COMPLETE.ipynb, STAGE3_part1_vectorstore.ipynb, STAGE3_part2_chatbot.ipynb
+- Notebooks: baseline_v0.ipynb, pipeline_v2_1000.ipynb, STAGE2_COMPLETE.ipynb, STAGE3_part1_vectorstore.ipynb, STAGE3_part2_chatbot.ipynb, STAGE3_part3_evaluation.ipynb
 - Vector store: chroma_gdpr.zip
 - Config: requirements.txt, .env.example, .gitignore, LICENSE
 
@@ -49,7 +65,7 @@ Source data remain the property of their publishers (CMS Law / ICO) and
 are included here as research snapshots. The labelled dataset produced
 by this project will be released under CC BY 4.0.
 
-## Baseline v0 (16 Jul 2026)
+## Baseline v0 (16 Jul 2026, superseded by final results below)
 - baseline_v0.ipynb - keyword screening of the full corpus (482/3,202
   records flagged, 15.1%), manual labelling of an 80-record stratified
   sample, and comparison of six classifiers on structured features.
@@ -108,8 +124,8 @@ system prompt enforcing per-claim citation and explicit refusal. BM25 (rank-bm25
 baseline over the same corpus, using the same LLM so only retrieval differs.
 
 Demonstrated behaviours (see Screenshots/): accurate cited answers; exclusion of
-retrieved-but-irrelevant records; refusal on unanswerable questions; correction of
-false premises.
+retrieved-but-irrelevant records; refusal on unanswerable questions; correction of false premises.
 
-Note: gpt-4o-mini (named in the proposal) was deprecated on Azure during the project;
-gpt-5-mini was used instead.
+Note: gpt-4o-mini (named in the proposal) was deprecated on Azure during the project gpt-5-mini was used instead.
+
+
